@@ -1,6 +1,6 @@
 {
     "name": "pakky",
-    "version": "0.1.1",
+    "version": "0.1.3",
     "description": "Pakky is a wrapper for webpack js and node-sass scss for non-js oriented applications (e.g. CakePHP)",
     "main": "bin/pakky.js",
     "author": "Milan van As <milanvanas@gmail.com>",
