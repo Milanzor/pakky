@@ -1,0 +1,43 @@
+{
+    "name": "pakky",
+    "version": "0.1.1",
+    "description": "Pakky is a wrapper for webpack js and node-sass scss for non-js oriented applications (e.g. CakePHP)",
+    "main": "bin/pakky.js",
+    "author": "Milan van As <milanvanas@gmail.com>",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:Milanzor/pakky.git"
+    },
+    "private": false,
+    "bin": {
+        "pakky": "bin/pakky.js"
+    },
+    "directories": {
+        "bin": "bin"
+    },
+    "scripts": {
+        "p": "pakky"
+    },
+    "dependencies": {
+        "@babel/core": "^7.0.0-beta.31",
+        "@babel/preset-env": "^7.0.0-beta.31",
+        "babel-loader": "8.0.0-beta.0",
+        "chokidar": "^1.7.0",
+        "colors": "^1.1.2",
+        "columnify": "^1.5.4",
+        "concurrently": "^3.5.1",
+        "fs-extra": "^4.0.2",
+        "hard-source-webpack-plugin": "^0.4.11",
+        "imports-loader": "^0.7.1",
+        "minimist": "^1.2.0",
+        "multi-glob": "^1.0.1",
+        "node-sass": "^4.7.2",
+        "nodemon": "^1.12.1",
+        "prettyjson": "^1.2.1",
+        "rimraf": "^2.6.2",
+        "uglifyjs-webpack-plugin": "^1.0.1",
+        "webpack": "^3.8.1",
+        "webpack-bundle-analyzer": "^2.9.0"
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "app": {
+        "input": "../js/app/",
+        "output": "../../private_html/js/app/"
+    },
+    "scss": {
+        "input": "../scss/",
+        "output": "../../private_html/css/",
+        "outputStyle": "compressed",
+        "purge": true
+    },
+    "fonts": {
+        "output": "../../private_html/fonts/"
+    },
+    "vendors": {
+        "aliasses": {
+            "handlebars": "handlebars/runtime.js",
+            "waypoints": "waypoints/lib/jquery.waypoints.js"
+        },
+        "module_dirs": [
+            "../../../node_modules",
+            "../../../../node_modules",
+            "../../../../../cakephp/app/Plugin/Appo/Assets/node_modules"
+        ],
+        "list": [
+            "jquery",
+            "air-datepicker",
+            "autosize",
+            "clipboard",
+            "corejs-typeahead",
+            "dom-autoscroller",
+            "dragula",
+            "dropzone",
+            "handlebars",
+            "interactjs",
+            "jgrowl",
+            "jquery-mousewheel",
+            "js-cookie",
+            "lightgallery",
+            "lg-autoplay",
+            "lg-fullscreen",
+            "lg-pager",
+            "lg-thumbnail",
+            "lg-video",
+            "lg-zoom",
+            "malihu-custom-scrollbar-plugin",
+            "moment",
+            "mousetrap",
+            "normalize-css",
+            "tether",
+            "tooltipster",
+            "underscore",
+            "waypoints"
+        ],
+        "output": "../../private_html/js/"
+    }
+}
